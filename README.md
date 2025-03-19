@@ -20,7 +20,7 @@ Check out the live demo of my portfolio: [Portfolio Live Demo](https://your-port
 1. Clone the repository:
    ```bash
    git clone https://github.com/shanika200721/Portfolio.git
-   Open the project folder:
+   
 2. Open the project folder:
 ```bash
 cd Portfolio
