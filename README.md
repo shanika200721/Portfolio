@@ -3,7 +3,7 @@
 Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a developer. It is built using **HTML**, **CSS**, and **JavaScript**.
 
 ## 🚀 Live Demo
-Check out the live demo of my portfolio: [Portfolio Live Demo](https://your-portfolio-link.com)
+Check out the live demo of my portfolio: [Portfolio Live Demo](https://shanika200721.github.io/Portfolio/)
 
 ## 🛠️ Technologies Used
 - **HTML**: Structure of the website.
