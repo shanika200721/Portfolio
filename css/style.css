@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
 :root{
-    --bg-black-900:#6868f9;
+    --bg-black-900:#eeeef9;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
     --text-black-900: #000000; /* or any other color you prefer */
@@ -40,6 +40,7 @@ ul{
     display: block;
     padding: 0 30px;
     opacity: 1;
+
 
 }
 
@@ -81,7 +82,7 @@ ul{
     content: '';
     height: 4px;
     width: 50px;
-    background-color: #da1432;
+    background-color:  #754ff2;;
     position: absolute;
     top: 100%;
     left: 0%;
@@ -91,7 +92,7 @@ ul{
     content: '';
     height: 4px;
     width: 25px;
-    background-color: #da1432;
+    background-color:  #754ff2;;
     position: absolute;
     top: 100%;
     left: 0%;
@@ -110,12 +111,12 @@ ul{
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
-    color: darkblue;
+    color: white;
     border-radius: 40px;
     display: inline-block;
     white-space: nowrap;
     border:none;
-    background-color: #dcf24f;
+    background-color: #754ff2;
     transition: all 0.3s ease;
 
 }
@@ -123,10 +124,14 @@ ul{
     transform: scale(1.05);
 }
 
+.shadow-dark{
+    box-shadow: 0 0 2px rgb(178, 175, 175);
+}
+
 /* aside */
 .aside{
     width: 270px;
-    background: var(--bg-black-100);
+    background: #170945;
     position: fixed;
     left: 0;
     top: 0;
@@ -148,7 +153,7 @@ ul{
 }
 
 .aside .logo a{
-    color: var(--text-black-900);
+    color: white;
     font-weight: 700;
     padding: 15px 20px;
     font-size: 30px;
@@ -181,7 +186,7 @@ ul{
 .aside .nav-toggler span{
     height:  2px;
     width: 18px;
-    background: #da1432;
+    background:  #754ff2;
     display: inline-block;
     position: relative;
 }
@@ -190,7 +195,7 @@ ul{
     content: '';
     height: 2px;
     width: 18px;
-    background: #da1432;
+    background:  #754ff2;
     position: absolute;
     top: -6px;
     left: 0;
@@ -200,7 +205,7 @@ ul{
     content: '';
     height: 2px;
     width: 18px;
-    background: #da1432;
+    background:  #754ff2;
     position: absolute;
     top: 6px;
     left: 0;
@@ -221,13 +226,13 @@ ul{
     font-weight: 600;
     display: block;
     border-bottom: 1px solid var(--bg-black-50);
-    color: var(--text-black-900);
+    color: white;
     padding: 5px 15px;
     
 }
 
 .aside .nav li a.active{
-    color: #da1432;
+    color: white;
 }
 
 .aside .nav li a i{
@@ -253,7 +258,7 @@ h3.hello span{
     font-family: 'Clicker Script', cursive;
     font-size: 30px;
     font-weight: 700;
-    color: #dcf24f;
+    color: #754ff2;
 
 }
 h3.my-profession{
@@ -261,7 +266,7 @@ h3.my-profession{
     margin: 15px 0;
 }
 .typing{
-    color: #dcf24f;
+    color: #754ff2;
 }
 
 .home-info p{
@@ -282,8 +287,8 @@ h3.my-profession{
     position: absolute;
     height: 80px;
     width: 80px;
-    border-bottom: 10px solid red;
-    border-right: 10px solid red;
+    border-bottom: 10px solid  #754ff2;;
+    border-right: 10px solid  #754ff2;;
     right: 0px;
     bottom: -20px;
 }
@@ -292,8 +297,8 @@ h3.my-profession{
     position: absolute;
     height: 80px;
     width: 80px;
-    border-top: 10px solid red;
-    border-left: 10px solid red;
+    border-top: 10px solid  #754ff2;;
+    border-left: 10px solid  #754ff2;;
     left: -2px;
     top: -25px;
 }
@@ -324,7 +329,7 @@ h3.my-profession{
 }
 
 .about .about-content .about-text h3 span{
-    color: rgb(194, 25, 25);
+    color:  #754ff2;;
 }
 
 .about .about-content .about-text p{
@@ -403,7 +408,7 @@ h3.my-profession{
     top: 0;
     height: 100%;
     border-radius: 4px;
-    background-color:#da1432;
+    background-color: #754ff2;;
 }
 
 .about .about-content .skills .skill-item .skill-percent{
@@ -427,3 +432,325 @@ h3.my-profession{
     font-weight: 700;
     color: var(--text-black-900);
 }
+
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+
+.about .about-content .timeline{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.about .about-content .timeline .timeline-item{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+
+.about .about-content .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+
+}
+
+.about .about-content .timeline .timeline-item::before{
+    content: '';
+    width: 2px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color:  #754ff2;;
+}
+
+.about .about-content  .timeline .timeline-item .circle-dot{             /* some mistake */
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:  #754ff2;;
+}
+
+.about .about-content .timeline .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-date .fa{
+    margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+
+.about .about-content .timeline .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
+
+/*service*/
+
+.service-section .container{
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.service-section  .service-item{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.service-section .service-item .service-item-inner{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service-section .service-item .service-item-inner:hover{
+    box-shadow: 0 0 20px rgb(178, 175, 175);
+}
+
+.service-section .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service-section .service-item .service-item-inner .icon .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color:  #754ff2;;
+    transition: all 0.3s ease;
+}
+
+.service-section .service-item .service-item-inner:hover .icon{
+    background-color:  #754ff2;;
+}
+
+.service-section .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.service-section .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.service-section .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
+/*portfolio section*/
+
+.portfolio-section .container{
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+.portfolio-section .portfolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio-section .portfolio-heading h2{
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+
+.portfolio-section .portfolio-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.portfolio-section .portfolio-item-inner{
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.portfolio-section .portfolio-item-inner .portfolio-img img{
+    width: 100%;
+    display: block;
+}
+
+/*contact section*/
+
+.contact-section{
+    padding-top: 60px;
+}
+.contact-section .contact-title{
+    color:  #754ff2;;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.contact-section .contact-sub-title{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.contact-section .contact-info-item{
+   flex: 0 0 25%;
+   max-width: 25%;
+   text-align: center;
+   margin-bottom: 60px;
+
+}
+
+.contact-section .contact-info-item .icon{
+    display: inline-block;
+}
+
+.contact-section .contact-info-item .icon .fa{
+    font-size: 25px;
+    color:  #754ff2;;
+}
+
+.contact-section .contact-info-item h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+
+.contact-section .contact-info-item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
+
+.contact-section .contact-form{
+    flex : 0 0 100%;
+    max-width: 100%;
+}
+.contact-section .contact-form .col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact-section .contact-form .col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+}
+
+.contact-section .contact-form .form-item{
+    margin-bottom: 30px;
+}
+
+.contact-section .contact-form .form-item .form-control{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+
+.contact-section .contact-form .form-item .form-control:focus{
+    box-shadow: 0 0 20px rgb(178, 175, 175);
+}
+
+.contact-section .contact-form .form-item textarea.form-control{
+    height: 140px;
+}
+
+.contact-section .contact-form .btn{
+    height: 50px;
+    padding: 0 50px;
+}
+
+@media (max-width:1199px)
+{
+    .aside{
+        left: -270px;
+    }
+    .main-content{
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:991px){
+
+    .contact-section .contact-info-item,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+   
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .home-img{
+        display: none;
+    }
+}
+
+@media (max-width:767px){
+    .contact-section .contact-form .col-6,
+    .contact-section .contact-info-item,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item,
+    .about .about-content .leadership,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
