@@ -10,7 +10,7 @@ Check out the live demo of my portfolio: [Portfolio Live Demo](https://shanika20
 - **CSS**: Styling and design.
 - **JavaScript**: Interactive elements and functionality.
 
-
+<img src="screen-shot.jpg">
 ## 🎨 Features
 - **Responsive Design**: Works on all devices (desktop, tablet, mobile).
 - **Interactive Elements**: Smooth animations and transitions.
