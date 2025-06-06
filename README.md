@@ -13,7 +13,6 @@ Check out the live demo of my portfolio: [Portfolio Live Demo](https://shanika20
 
 ## 🎨 Features
 - **Responsive Design**: Works on all devices (desktop, tablet, mobile).
-- **Dark/Light Mode**: Toggle between light and dark themes.
 - **Interactive Elements**: Smooth animations and transitions.
 
 ## 🛠️ How to Run Locally
